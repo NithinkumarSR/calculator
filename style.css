@@ -5,7 +5,8 @@
     
     }
     body{
-       background-color: #bde0fe;
+        background-image: linear-gradient(to bottom, #deb9ce, #d7b3d2, #ccafd7, #bdabdd, #a9a9e2, #93abe6, #79ace7, #5baee5, #37b2dd, #11b4d0, #09b5bf, #2bb5ac);
+
     }
     .box{ 
         border: solid black 3px;
