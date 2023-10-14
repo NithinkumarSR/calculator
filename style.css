@@ -7,15 +7,20 @@
     body{
         background-image: linear-gradient(to bottom, #deb9ce, #d7b3d2, #ccafd7, #bdabdd, #a9a9e2, #93abe6, #79ace7, #5baee5, #37b2dd, #11b4d0, #09b5bf, #2bb5ac);
 /*  */
+     background-repeat: no-repeat;
+     height: 100vh;
+     overflow-x: hidden;
+     scroll-behavior:unset;
     }
     .box{ 
         border: solid black 3px;
         margin-top: 20px;
         width: 350px;
-        height: 500px;
+        height: 550px;
         border-radius: 30px;
         margin-left: 39%;
-        background-color:#ffafcc;
+        background-color:darkblue;
+        padding: 20px;
     }
     #display{
         text-align: right;
@@ -23,7 +28,7 @@
         padding-top: 9%;
         background-color: rgb(243, 240, 255);
         border-radius: 50px;
-        
+        font-size: 25px;
     }
     .row{
     display: flex;
@@ -40,6 +45,6 @@
     
     }
     .btn:hover{
-        background-color: #ffc8dd;
-        box-shadow: 0px,0px,5px rgb(63, 11, 131),0px,0px,250px rgb(80, 77, 119);
+        background-color: whitesmoke;
+        box-shadow: 0px,0px,5px rgb(195, 187, 206),0px,0px,250px rgb(0, 0, 0);
     }
